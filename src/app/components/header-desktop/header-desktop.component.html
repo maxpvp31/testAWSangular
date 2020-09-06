@@ -15,7 +15,7 @@
         <ul class="menu-nav">
             <li *ngFor="let item of mainNav" class="menu-item menu-item-submenu menu-item-rel" [ngClass]="{'menu-item-here': actif == item.title}" data-menu-toggle="click" aria-haspopup="true">
                 <a class="menu-link menu-toggle" (click)="goToSomewhere(item.title)" >
-                    <span class="menu-text text-dark opacity-90" style="font-size: 1.1em;">{{item.title}}</span>
+                    <span class="menu-text text-dark opacity-90;" style="font-size: 1.1em;">{{item.title}}</span>
                 </a>
             </li>
         </ul>

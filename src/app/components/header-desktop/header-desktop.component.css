@@ -3,3 +3,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.menu-link:hover {
+  background-color: rgba(47, 235, 100, 0.8) !important;
+}

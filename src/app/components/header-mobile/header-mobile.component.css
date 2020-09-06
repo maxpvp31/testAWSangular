@@ -1,0 +1,12 @@
+.btn.btn-hover-transparent-white {
+    background: #3F4254;
+}
+
+.btn.btn-hover-transparent-white:hover {
+    background: #3F4254;
+}
+
+
+.btn.btn-hover-transparent-white:focus {
+    background: #3F4254;
+}

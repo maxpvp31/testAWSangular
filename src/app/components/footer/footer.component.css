@@ -1,0 +1,9 @@
+.bg-white {
+    background: white !important;
+}
+
+.color-gradient-login {
+    background: -webkit-linear-gradient(#EE3D8B, #de66f6) !important;
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent !important;
+  }

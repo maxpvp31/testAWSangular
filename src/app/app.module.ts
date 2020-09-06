@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HomeComponent } from './components/home/home.components';
+import { HomeComponent } from './components/views/home/home.components';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ToolBarComponent } from './components/home/tool-bar/tool-bar.component';
+import { ToolBarComponent } from './components/views/home/tool-bar/tool-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderDesktopComponent } from './components/header-desktop/header-desktop.component';
 import { HeaderMobileComponent } from './components/header-mobile/header-mobile.component';
+import { PriceComponent } from './components/views/price/price.component';
+import { PlanningComponent } from './components/views/planning/planning.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,9 +16,9 @@ import { HeaderMobileComponent } from './components/header-mobile/header-mobile.
     ToolBarComponent,
     FooterComponent,
     HeaderDesktopComponent,
-    HeaderMobileComponent
-
-
+    HeaderMobileComponent,
+    PriceComponent,
+    PlanningComponent
   ],
   imports: [
     BrowserModule,

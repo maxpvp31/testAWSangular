@@ -44,15 +44,17 @@ export class HeaderDesktopComponent implements OnInit {
   }
 
   goToSomewhere(path) {
+    console.log(path);
     switch(path) {
       case 'Accueil':
         this.router.navigate(['']);
         break;
       case 'Planning':
-        this.router.navigate(['']);
+        this.router.navigate(['/planning']);
         break;
         case 'Tarifs':
-          this.router.navigate(['']);
+          console.log('price router');
+          this.router.navigate(['/price']);
           break;
           case 'Notre offre':
             this.router.navigate(['']);

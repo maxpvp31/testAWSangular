@@ -9,6 +9,7 @@ import { HeaderDesktopComponent } from './components/header-desktop/header-deskt
 import { HeaderMobileComponent } from './components/header-mobile/header-mobile.component';
 import { PriceComponent } from './components/views/price/price.component';
 import { PlanningComponent } from './components/views/planning/planning.component';
+import { PriceColumnComponent } from './components/price-column/price-column.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { PlanningComponent } from './components/views/planning/planning.componen
     HeaderDesktopComponent,
     HeaderMobileComponent,
     PriceComponent,
-    PlanningComponent
+    PlanningComponent,
+    PriceColumnComponent
   ],
   imports: [
     BrowserModule,

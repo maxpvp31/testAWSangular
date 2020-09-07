@@ -1,0 +1,20 @@
+.priceColumnContainer{
+  height: 100%;
+  width: 16%;
+border-radius: 5%;
+  margin-right : 10px;
+  justify-content: space-around;
+  background-color: white;
+
+}
+.priceContainer {
+  width: 90%;
+  height: 500px;
+
+  margin: auto;
+  margin-top: 4%;
+
+  flex-direction: row;
+  display: flex
+
+}

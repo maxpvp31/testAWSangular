@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderDesktopComponent } from './components/header-desktop/header-desktop.component';
 import { HeaderMobileComponent } from './components/header-mobile/header-mobile.component';
 import { PriceComponent } from './components/views/price/price.component';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { PlanningComponent } from './components/views/planning/planning.component';
 import { PriceColumnComponent } from './components/price-column/price-column.component';
 @NgModule({
@@ -24,7 +25,8 @@ import { PriceColumnComponent } from './components/price-column/price-column.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

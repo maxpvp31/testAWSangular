@@ -11,6 +11,8 @@ import { PriceComponent } from './components/views/price/price.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { PlanningComponent } from './components/views/planning/planning.component';
 import { PriceColumnComponent } from './components/price-column/price-column.component';
+import { SvgRightComponent } from './components/SVG/svg-right/svg-right.component';
+import { SvgLeftComponent } from './components/SVG/svg-left/svg-left.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { PriceColumnComponent } from './components/price-column/price-column.com
     HeaderMobileComponent,
     PriceComponent,
     PlanningComponent,
-    PriceColumnComponent
+    PriceColumnComponent,
+    SvgRightComponent,
+    SvgLeftComponent
   ],
   imports: [
     BrowserModule,
